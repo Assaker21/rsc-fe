@@ -1,0 +1,16 @@
+.full-screen-loading-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  pointer-events: none;
+}

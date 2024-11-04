@@ -1,0 +1,17 @@
+.canvas-container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1000;
+
+  .vignette {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    box-shadow: inset 0 0 50vw black;
+    z-index: -1;
+
+    pointer-events: none;
+  }
+}

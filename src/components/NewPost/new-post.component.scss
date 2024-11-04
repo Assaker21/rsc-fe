@@ -1,0 +1,40 @@
+.new-post-description-input {
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  &:hover,
+  &:focus {
+    cursor: text;
+    border: none;
+    outline: none;
+  }
+}
+
+.new-post-title-input {
+  background-color: transparent;
+  width: 100%;
+  &:hover,
+  &:focus {
+    cursor: text;
+    border: none;
+    outline: none;
+  }
+}
+
+.new-post-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+  .new-post-buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &.end {
+      justify-content: end;
+    }
+  }
+}

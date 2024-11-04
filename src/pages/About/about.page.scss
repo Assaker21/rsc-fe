@@ -1,0 +1,94 @@
+.about-section {
+  width: calc(100% - 4rem);
+  max-width: 1024px;
+  margin: 0 auto;
+
+  .about-description {
+    height: calc(100vh - 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+    .about-description-title {
+      font-size: 1.5em;
+      font-weight: 500;
+      margin-bottom: 1em;
+    }
+
+    .about-description-content {
+      font-size: 4em;
+      font-weight: 600;
+      letter-spacing: -0.04em;
+    }
+
+    .about-description-spacer {
+      height: 6em;
+    }
+
+    .about-description-scroller {
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      transform: translateX(50%);
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2em;
+      gap: 0.2em;
+      font-size: 1.2em;
+    }
+  }
+
+  .about-board {
+    .about-board-title {
+      font-size: 4em;
+      font-weight: 600;
+      letter-spacing: -0.04em;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+
+    .about-board-items {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1em;
+      margin-bottom: 1em;
+
+      .about-board-item {
+        flex: 1;
+        min-width: 220px;
+        position: relative;
+
+        .about-board-item-image {
+          width: 100%;
+          margin: 0;
+        }
+
+        .about-board-item-info {
+          background-color: white;
+          backdrop-filter: blur(8px);
+          padding: 0.5rem 1rem;
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+
+          .about-board-item-name {
+            color: black;
+            font-weight: 600;
+            font-size: 1.2rem;
+          }
+
+          .about-board-item-role {
+            color: black;
+            font-weight: 500;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

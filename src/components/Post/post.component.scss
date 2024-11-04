@@ -1,0 +1,8 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  &:hover {
+    background-color: rgb(3, 10, 21);
+  }
+}
